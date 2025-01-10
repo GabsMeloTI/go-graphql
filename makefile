@@ -31,7 +31,7 @@ migration-down:
 # run locally
 run: 
 	@echo "$(GREEN) Running Golang App... $(CYAN)LOCAL $(NC)"
-	go run server.go local
+	go run main.go local
 
 # internal commands
 sqlc:
