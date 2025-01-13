@@ -44,8 +44,4 @@ gqlgen:
 	@go run github.com/99designs/gqlgen generate
 
 
-.PHONY: run sqlc postgres-setup start-postgres stop-postgres createdb migration-up migration-down swag
-
-run-rabbit:
-	go run cmd/rabbit/main.go local
 
